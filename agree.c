@@ -7,7 +7,7 @@ int main(void)
 
     if (c =='y')
     {
-        printf(Agreed.\n");
+        printf("Agreed.\n");
     }
     else if (c =='n')
     {
