@@ -1,3 +1,4 @@
 #include <cs50.h>
+#include <stdio.h>
 
-answer = get_string("whats your name? ")
+string answer = get_string("whats your name? ");
