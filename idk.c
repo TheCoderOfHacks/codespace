@@ -4,5 +4,5 @@
 int main(void)
 {
     string answer = get_string("whats your name? ");
-    printf("hello, answer\n");
+    printf("hello, %s\n", answer);
 }
