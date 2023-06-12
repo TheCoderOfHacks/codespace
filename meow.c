@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <cs50.h>
 
-int counter =3;
-while (counter > 5)
+int i = 3;
+while (i > 0)
 {
     printf("Meow\n");
-    counter = counter--;
+    i--;
 }
