@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int main(void)
+int counter =3;
+while (counter > 5)
 {
-    printf("meow\n");
-    printf("meow\n");
-    printf("meow\n");
+    printf("Meow\n");
+    counter = counter--;
 }
