@@ -9,7 +9,7 @@ int main(void)
     {
         s = get_int("Start Size: ");
     }
-    while (s < 10);
+    while (s < 9);
     // TODO: Prompt for end size
     float e;
     {
