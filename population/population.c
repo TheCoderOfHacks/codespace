@@ -20,7 +20,7 @@ int main(void)
     int y = 0;
     while (s < e)
     {
-        s = s + (s /3) - (s / 4);
+        s = s + (s / 3) - (s / 4);
         y++;
     }
     // TODO: Print number of years
