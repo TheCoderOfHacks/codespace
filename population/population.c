@@ -4,14 +4,14 @@
 int main(void)
 {
     // TODO: Prompt for start size
-    float s;
+    int s;
     do
     {
         s = get_int("Start Size: ");
     }
     while (s < 9);
     // TODO: Prompt for end size
-    float e;
+    int e;
     {
         e = get_int("End Size: ");
     }
