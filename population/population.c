@@ -4,7 +4,7 @@
 int main(void)
 {
     // TODO: Prompt for start size
-    int s;
+    float s;
     do
     {
         s = get_int("Start Size: ");
@@ -17,7 +17,7 @@ int main(void)
     }
     while (e < s);
     // TODO: Calculate number of years until we reach threshold
-    int y = 0;
+    float y = 0;
     while (s < e)
     {
         s = s + (s /3) - (s / 4);
