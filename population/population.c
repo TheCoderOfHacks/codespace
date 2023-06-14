@@ -4,18 +4,18 @@
 int main(void)
 {
     // TODO: Prompt for start size
-    int start;
+    int s;
     do
     {
-        start = get_int("Start Size: ");
+        s = get_int("Start Size: ");
     }
     while (start < 9);
     // TODO: Prompt for end size
-    int end;
+    int e;
     {
-        end = get_int("End Size: ");
+        e = get_int("End Size: ");
     }
-    while (end < start);
+    while (e < s);
     // TODO: Calculate number of years until we reach threshold
 
     // TODO: Print number of years
