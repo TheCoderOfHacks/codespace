@@ -13,7 +13,7 @@ int main(void)
     // TODO: Prompt for end size
     int e;
     {
-        e = get_string("End Size: ");
+        e = get_int("End Size: ");
     }
     while (e < s);
     // TODO: Calculate number of years until we reach threshold
